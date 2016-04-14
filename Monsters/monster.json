@@ -1,0 +1,14 @@
+ [{
+  "desc":{"name":"Bugbear", "size":"Medium", "type":"Humanoid", "subtype":"goblinoid, alignment:chaotic evil"},
+  "capabilities": {"ac":16, "type":"hide armor, shield", "hp":17, "hd":"5d8+5", "speed":"30ft"},
+  "abilities": {"str":15, "dex":14, "con":13, "int":8, "wis":11, "cha":9},
+  "skills":{
+  "skills":["stealth +6", "Survival +2"],
+  "senses":["darkvision 60ft.", "passive perception 10"],
+  "languages":["common", "goblin"],
+  "cr":1,
+  "xp":200
+  },
+  "features":["Brute: ...", "Surprise: ..."],
+  "actions":["Morningstar: ...", "Javelin: ..."]
+  }]

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB0250C1CBDEB8B0055EDB9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0250B1CBDEB8B0055EDB9 /* SwiftyJSON.swift */; };
+		7BB0250E1CBDEBA70055EDB9 /* MonsterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0250D1CBDEBA70055EDB9 /* MonsterStore.swift */; };
+		7BB025121CBDECD30055EDB9 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB025111CBDECD30055EDB9 /* StreamReader.swift */; };
+		7BB025141CBDF4430055EDB9 /* monster.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BB025131CBDF4430055EDB9 /* monster.json */; };
+		7BB025161CBE12F20055EDB9 /* AttributesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB025151CBE12F20055EDB9 /* AttributesTableViewCell.swift */; };
+		7BB025181CBE16750055EDB9 /* MonsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB025171CBE16750055EDB9 /* MonsterViewController.swift */; };
+		7BB0251A1CBE17FF0055EDB9 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB025191CBE17FF0055EDB9 /* Monster.swift */; };
+		7BB0251C1CBE18480055EDB9 /* MonsterSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0251B1CBE18480055EDB9 /* MonsterSize.swift */; };
+		7BB0251E1CBE18D30055EDB9 /* MonsterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0251D1CBE18D30055EDB9 /* MonsterType.swift */; };
+		7BB025201CBE19420055EDB9 /* MonsterSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB0251F1CBE19420055EDB9 /* MonsterSubtype.swift */; };
+		7BB025221CBE19830055EDB9 /* MonsterAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB025211CBE19830055EDB9 /* MonsterAlignment.swift */; };
+		7BB025241CBF49F40055EDB9 /* Attibutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB025231CBF49F40055EDB9 /* Attibutes.swift */; };
 		7BF373EE1CBDB01B00C85C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF373ED1CBDB01B00C85C43 /* AppDelegate.swift */; };
 		7BF373F01CBDB01B00C85C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF373EF1CBDB01B00C85C43 /* ViewController.swift */; };
 		7BF373F31CBDB01B00C85C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF373F11CBDB01B00C85C43 /* Main.storyboard */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BB0250B1CBDEB8B0055EDB9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		7BB0250D1CBDEBA70055EDB9 /* MonsterStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonsterStore.swift; path = Monsters/MonsterStore.swift; sourceTree = "<group>"; };
+		7BB025111CBDECD30055EDB9 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		7BB025131CBDF4430055EDB9 /* monster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monster.json; sourceTree = "<group>"; };
+		7BB025151CBE12F20055EDB9 /* AttributesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttributesTableViewCell.swift; path = Monsters/AttributesTableViewCell.swift; sourceTree = "<group>"; };
+		7BB025171CBE16750055EDB9 /* MonsterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonsterViewController.swift; path = Monsters/MonsterViewController.swift; sourceTree = "<group>"; };
+		7BB025191CBE17FF0055EDB9 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		7BB0251B1CBE18480055EDB9 /* MonsterSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterSize.swift; sourceTree = "<group>"; };
+		7BB0251D1CBE18D30055EDB9 /* MonsterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterType.swift; sourceTree = "<group>"; };
+		7BB0251F1CBE19420055EDB9 /* MonsterSubtype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterSubtype.swift; sourceTree = "<group>"; };
+		7BB025211CBE19830055EDB9 /* MonsterAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterAlignment.swift; sourceTree = "<group>"; };
+		7BB025231CBF49F40055EDB9 /* Attibutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attibutes.swift; sourceTree = "<group>"; };
 		7BF373EA1CBDB01B00C85C43 /* Monsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF373ED1CBDB01B00C85C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BF373EF1CBDB01B00C85C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +64,15 @@
 		7BF373E11CBDB01B00C85C43 = {
 			isa = PBXGroup;
 			children = (
+				7BB025191CBE17FF0055EDB9 /* Monster.swift */,
+				7BB025231CBF49F40055EDB9 /* Attibutes.swift */,
+				7BB0251D1CBE18D30055EDB9 /* MonsterType.swift */,
+				7BB0251F1CBE19420055EDB9 /* MonsterSubtype.swift */,
+				7BB025211CBE19830055EDB9 /* MonsterAlignment.swift */,
+				7BB0251B1CBE18480055EDB9 /* MonsterSize.swift */,
+				7BB025171CBE16750055EDB9 /* MonsterViewController.swift */,
+				7BB025151CBE12F20055EDB9 /* AttributesTableViewCell.swift */,
+				7BB0250D1CBDEBA70055EDB9 /* MonsterStore.swift */,
 				7BF373EC1CBDB01B00C85C43 /* Monsters */,
 				7BF373EB1CBDB01B00C85C43 /* Products */,
 			);
@@ -59,6 +92,9 @@
 				7BF373ED1CBDB01B00C85C43 /* AppDelegate.swift */,
 				7BF373EF1CBDB01B00C85C43 /* ViewController.swift */,
 				7BF373F11CBDB01B00C85C43 /* Main.storyboard */,
+				7BB025111CBDECD30055EDB9 /* StreamReader.swift */,
+				7BB025131CBDF4430055EDB9 /* monster.json */,
+				7BB0250B1CBDEB8B0055EDB9 /* SwiftyJSON.swift */,
 				7BF373F71CBDB01B00C85C43 /* Assets.xcassets */,
 				7BF373F91CBDB01B00C85C43 /* LaunchScreen.storyboard */,
 				7BF373FC1CBDB01B00C85C43 /* Info.plist */,
@@ -128,6 +164,7 @@
 				7BF373FB1CBDB01B00C85C43 /* LaunchScreen.storyboard in Resources */,
 				7BF373F81CBDB01B00C85C43 /* Assets.xcassets in Resources */,
 				7BF373F31CBDB01B00C85C43 /* Main.storyboard in Resources */,
+				7BB025141CBDF4430055EDB9 /* monster.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +175,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB025121CBDECD30055EDB9 /* StreamReader.swift in Sources */,
+				7BB0251A1CBE17FF0055EDB9 /* Monster.swift in Sources */,
 				7BF373F61CBDB01B00C85C43 /* Monsters.xcdatamodeld in Sources */,
+				7BB025201CBE19420055EDB9 /* MonsterSubtype.swift in Sources */,
 				7BF373F01CBDB01B00C85C43 /* ViewController.swift in Sources */,
 				7BF373EE1CBDB01B00C85C43 /* AppDelegate.swift in Sources */,
+				7BB0251E1CBE18D30055EDB9 /* MonsterType.swift in Sources */,
+				7BB025241CBF49F40055EDB9 /* Attibutes.swift in Sources */,
+				7BB0250C1CBDEB8B0055EDB9 /* SwiftyJSON.swift in Sources */,
+				7BB025181CBE16750055EDB9 /* MonsterViewController.swift in Sources */,
+				7BB0250E1CBDEBA70055EDB9 /* MonsterStore.swift in Sources */,
+				7BB025161CBE12F20055EDB9 /* AttributesTableViewCell.swift in Sources */,
+				7BB025221CBE19830055EDB9 /* MonsterAlignment.swift in Sources */,
+				7BB0251C1CBE18480055EDB9 /* MonsterSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +338,7 @@
 				7BF374011CBDB01B00C85C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

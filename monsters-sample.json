@@ -1,0 +1,35 @@
+[{
+    "desc":{"name":"Bugbear", "size":"Medium", "type":"Humanoid", "subtype":"goblinoid, alignment:chaotic evil"},
+    "capabilities": {"ac":16, "armor":"hide armor, shield", "hp":17, "hd":"5d8+5", "speed":30},
+    "abilities": {"str":15, "dex":14, "con":13, "int":8, "wis":11, "cha":9},
+    "skills":{
+        "skills":["stealth +6", "Survival +2"],
+        "senses":["darkvision 60ft.", "passive perception 10"],
+        "languages":["common", "goblin"],
+        "cr":1,
+        "xp":200
+    },
+    "features":["Brute: ...", "Surprise: ..."],
+    "actions":["Morningstar: ...", "Javelin: ..."]
+}]
+
+-------------------
+Bugbear
+Medium humanoid (goblinoid), chaotic evil
+
+Armor Class: 16 (hide armor, shield)
+Hit Points: 27 (5d8+5)
+Speed: 30ft.
+
+STR 15(+2) DEX 14(+2) CON 13(+1) INT 8(-1) WIS 11(+0) CHA 9(-1)
+
+Skills: Stealth +6, Survival +2
+Senses: darkvision 60ft, passive perception 10
+Languages: Common, goblin
+Challenge: 1 (200xp)
+
+Brute: A melee weapon deals one extra die of its damage when the bugbear hits with it (included in attack).
+Surprise Attack: If the bugbear surprises a cresture and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.
+
+Morningstar: Melee Weapon attack: +4 to hit, reach 5 ft., one target, Hit 11 (2d8+2) piercing.
+Javelin: Melee or ranged Weapon Attack: +4 to hit, reach 5ft. or range 30/120ft. one target. Hit 9 (2d6+2) piercing damage in melee or 5(1d6+2) piercing damage at range.
