@@ -1,6 +1,6 @@
  [{
-  "desc":{"name":"Bugbear", "size":"Medium", "type":"Humanoid", "subtype":"goblinoid, alignment:chaotic evil"},
-  "capabilities": {"ac":16, "type":"hide armor, shield", "hp":17, "hd":"5d8+5", "speed":"30ft"},
+  "desc":{"name":"Bugbear", "size":"Medium", "type":"Humanoid", "subtype":"goblinoid","alignment":"chaotic evil"},
+  "capabilities": {"ac":16, "armor":"hide armor, shield", "hp":17, "hd":"5d8+5", "speed":30},
   "abilities": {"str":15, "dex":14, "con":13, "int":8, "wis":11, "cha":9},
   "skills":{
   "skills":["stealth +6", "Survival +2"],
@@ -11,4 +11,18 @@
   },
   "features":["Brute: ...", "Surprise: ..."],
   "actions":["Morningstar: ...", "Javelin: ..."]
+  },
+  {
+  "desc":{"name":"Goblin", "size":"small", "type":"Humanoid", "subtype":"goblinoid", "alignment":"neutral evil"},
+  "capabilities": {"ac":13, "armor":"leather armor, shield", "hp":7, "hd":"2d6", "speed":30},
+  "abilities": {"str":8, "dex":14, "con":10, "int":10, "wis":8, "cha":8},
+  "skills":{
+  "skills":["stealth +6"],
+  "senses":["darkvision 60ft.", "passive perception 9"],
+  "languages":["common", "goblin"],
+  "cr":0,
+  "xp":50
+  },
+  "features":["Nimble Escape: ..."],
+  "actions":["Scimitar: ...", "Shortbow: ..."]
   }]

@@ -11,7 +11,7 @@ import UIKit
 
 class MonsterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    let monster = MonsterStore.sharedInstance.testJSON()
+    var monster: Monster?
     
     let sections = [
         "Name, type, and alignment",
@@ -39,11 +39,23 @@ class MonsterViewController: UIViewController, UITableViewDataSource, UITableVie
         case 2:
             return 1
         case 3:
-            return monster.skillsSnesesLanguagesShort.count
+            if let monster = monster {
+                return monster.skillsSnesesLanguagesShort.count
+            } else {
+                return 0
+            }
         case 4:
-            return monster.features.count
+            if let monster = monster {
+                return monster.features.count
+            } else {
+                return 0
+            }
         case 5:
-            return monster.actions.count
+            if let monster = monster {
+                return monster.actions.count
+            } else {
+                return 0
+            }
         default:
             return 0
         }
@@ -57,6 +69,10 @@ class MonsterViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         
         let cell = tableView.dequeueReusableCellWithIdentifier(cellId)!
+        
+        guard let monster = monster else {
+            return cell
+        }
         
         switch indexPath.section {
         case 0:
